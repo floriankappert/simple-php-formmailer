@@ -1,0 +1,20 @@
+@import "compass/css3";
+
+@import "normalize";
+@import "mobile";
+@import "variables";
+@import "layout";
+
+@import "shame";
+
+* {
+	@include box-sizing(border-box);
+}
+
+// ::before, ::after {
+// 	@include box-sizing(border-box);
+// }
+
+html, body {
+	width: 100%;
+}

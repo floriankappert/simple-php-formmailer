@@ -1,0 +1,24 @@
+form {
+	padding: 1em;
+	margin: 1em;
+}
+
+p {
+	margin: 1em;
+	padding: 1em;
+
+	&.form-error {
+		background-color: lighten(red,95%);
+		border: 1px solid red;
+	}
+}
+
+label + input,
+label + textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+textarea + input {
+	margin-bottom: 2em;
+}
